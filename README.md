@@ -60,20 +60,20 @@ use 'javi-7/nvim-poe'
 vim.cmd[[colorscheme silence]]
 ```
 ## Screenshots
-#### colorscheme `silence` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/silence-lua.png) and [Rust](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/silence-rust.png)
-<img src="https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/silence-java.png" alt="java" width="1200"/>
+#### colorscheme `silence` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/javi-7/img/blob/master/nvim-poe/silence-lua.png?raw=true) and [Rust](https://github.com/javi-7/img/blob/master/nvim-poe/silence-rust.png?raw=true)
+<img src="https://github.com/javi-7/img/blob/master/nvim-poe/silence-java.png?raw=true" alt="java" width="1200"/>
 
-#### colorscheme `blackcat` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/cosmos-lua.png) and [Rust](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/cosmos-rust.png)
-<img src="https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/cosmos-java.png" alt="java" width="1200"/>
+#### colorscheme `blackcat` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/javi-7/img/blob/master/nvim-poe/blackcat-lua.png?raw=true) and [Rust](https://github.com/javi-7/img/blob/master/nvim-poe/blackcat-rust.png?raw=true)
+<img src="https://github.com/javi-7/img/blob/master/nvim-poe/blackcat-java.png?raw=true" alt="java" width="1200"/>
 
-#### colorscheme `raven` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/void-lua.png) and [Rust](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/void-rust.png)
-<img src="https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/void-java.png" alt="java" width="1200"/>
+#### colorscheme `raven` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/javi-7/img/blob/master/nvim-poe/raven-lua.png?raw=true) and [Rust](https://github.com/javi-7/img/blob/master/nvim-poe/raven-rust.png?raw=true)
+<img src="https://github.com/javi-7/img/blob/master/nvim-poe/raven-java.png?raw=true" alt="java" width="1200"/>
 
-#### colorscheme `alone` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/blackhole-lua.png) and [Rust](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/blackhole-rust.png)
-<img src="https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/blackhole-java.png" alt="java" width="1200"/>
+#### colorscheme `alone` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/javi-7/img/blob/master/nvim-poe/alone-lua.png?raw=true) and [Rust](https://github.com/javi-7/img/blob/master/nvim-poe/alone-rust.png?raw=true)
+<img src="https://github.com/javi-7/img/blob/master/nvim-poe/alone-java.png?raw=true" alt="java" width="1200"/>
 
-#### colorscheme `usher` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/stardust-lua.png) and [Rust](https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/stardust-rust.png)
-<img src="https://codeberg.org/javi/img/raw/branch/master/nvim-spaschemes/stardust-java.png" alt="java" width="1200"/>
+#### colorscheme `usher` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/javi-7/img/blob/master/nvim-poe/usher-lua.png?raw=true) and [Rust](https://github.com/javi-7/img/blob/master/nvim-poe/usher-rust.png?raw=true)
+<img src="https://github.com/javi-7/img/blob/master/nvim-poe/usher-java.png?raw=true" alt="java" width="1200"/>
 
 ## Support
 - [Paypal](https://www.paypal.com/donate/?hosted_button_id=DT5ZGHRJKYJ8C)
