@@ -1,5 +1,5 @@
 # nvim-nyctovim
-*nvim-poe is a set of nyctophiliac colorschemes for Neovim written in Lua.*
+*nvim-nyctovim is a set of nyctophiliac colorschemes for Neovim written in Lua.*
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
