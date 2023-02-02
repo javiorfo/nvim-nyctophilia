@@ -1,9 +1,9 @@
--- ####################################################
--- # Maintainer:   Javier Orfo                        #
--- # URL:          https://github.com/javi-7/nvim-poe #
--- ####################################################
+-- #########################################################
+-- # Maintainer:   Javier Orfo                             #
+-- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- #########################################################
 
-local utils = require'poe.utils'
+local utils = require'nyctovim.utils'
 local linkAll = utils.linkAll
 local synKeyword = utils.synKeyword
 

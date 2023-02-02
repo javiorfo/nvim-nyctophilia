@@ -1,9 +1,9 @@
--- ####################################################
--- # Maintainer:   Javier Orfo                        #
--- # URL:          https://github.com/javi-7/nvim-poe #
--- ####################################################
+-- #########################################################
+-- # Maintainer:   Javier Orfo                             #
+-- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- #########################################################
 
-local utils = require'poe.utils'
+local utils = require'nyctovim.utils'
 
 -- Integration with Lualine
 local function set_lualine_colors(highlights)
@@ -56,7 +56,7 @@ end
 return {
     build = function(highlights)
         utils.highlightAll(
-            require'poe.groups'.set_groups(highlights)
+            require'nyctovim.groups'.set_groups(highlights)
         )
 
         pcall(function()

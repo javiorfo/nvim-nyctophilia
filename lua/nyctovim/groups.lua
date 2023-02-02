@@ -1,7 +1,7 @@
--- ####################################################
--- # Maintainer:   Javier Orfo                        #
--- # URL:          https://github.com/javi-7/nvim-poe #
--- ####################################################
+-- #########################################################
+-- # Maintainer:   Javier Orfo                             #
+-- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- #########################################################
 
 return {
     set_groups = function(highlights)

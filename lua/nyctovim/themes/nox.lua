@@ -1,12 +1,12 @@
--- ####################################################
--- # Maintainer:   Javier Orfo                        #
--- # URL:          https://github.com/javi-7/nvim-poe #
--- ####################################################
+-- #########################################################
+-- # Maintainer:   Javier Orfo                             #
+-- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- #########################################################
 
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
 vim.o.termguicolors = true
-vim.g.colors_name = "raven"
+vim.g.colors_name = "nox"
 
 local highlights = {
         hi_1  = { fg = 255, bg = 233 },
@@ -39,4 +39,4 @@ local highlights = {
         hi_28 = { fg = 232, bg = 232 }
 }
 
-require'poe.builder'.build(highlights)
+require'nyctovim.builder'.build(highlights)
