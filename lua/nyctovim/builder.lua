@@ -1,9 +1,9 @@
 -- #########################################################
 -- # Maintainer:   Javier Orfo                             #
--- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- # URL:          https://github.com/javio7/nvim-nyctovim #
 -- #########################################################
 
-local utils = require'nyctovim.utils'
+local util = require'nyctovim.util'
 
 -- Integration with Lualine
 local function set_lualine_colors(highlights)
@@ -25,7 +25,7 @@ end
 
 -- Integration with NvimTree
 local function set_nvim_tree_colors(highlights)
-    utils.highlightAll{
+    util.highlightAll{
         NvimTreeRootFolder       = highlights.hi_13,
         NvimTreeSymlink          = highlights.hi_1,
         NvimTreeFolderName       = highlights.hi_5,
@@ -44,7 +44,7 @@ local function set_nvim_tree_colors(highlights)
 end
 
 local function set_nerd_tree_colors(highlights)
-    utils.highlightAll{
+    util.highlightAll{
         NERDTreeDir      = highlights.hi_6,
         NERDTreeDirSlash = highlights.hi_6,
         NERDTreeOpenable = highlights.hi_6,
@@ -55,7 +55,7 @@ end
 
 return {
     build = function(highlights)
-        utils.highlightAll(
+        util.highlightAll(
             require'nyctovim.groups'.set_groups(highlights)
         )
 

@@ -1,6 +1,6 @@
 -- #########################################################
 -- # Maintainer:   Javier Orfo                             #
--- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- # URL:          https://github.com/javio7/nvim-nyctovim #
 -- #########################################################
 
 require'nyctovim.themes.atra'

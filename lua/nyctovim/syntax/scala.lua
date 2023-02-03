@@ -1,11 +1,11 @@
 -- #########################################################
 -- # Maintainer:   Javier Orfo                             #
--- # URL:          https://github.com/javi-7/nvim-nyctovim #
+-- # URL:          https://github.com/javio7/nvim-nyctovim #
 -- #########################################################
 
-local utils = require'nyctovim.utils'
-local linkAll = utils.linkAll
-local synKeyword = utils.synKeyword
+local util = require'nyctovim.util'
+local linkAll = util.linkAll
+local synKeyword = util.synKeyword
 
 return function()
     synKeyword("scalaExternal", "import", "package")
