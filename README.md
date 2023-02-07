@@ -12,31 +12,29 @@
     - [x] silentium
     - [x] umbra
 - [x] Supported syntax **(nvim-treesitter no needed)**
-    - Excellent match
-        - [x] Bash
-        - [x] C
-        - [x] C++
-        - [x] CSS
-        - [x] HTML
-        - [x] Java
-        - [x] JSON
-        - [x] Kotlin
-        - [x] Lua
-        - [x] Perl
-        - [x] Plant UML
-        - [x] Python
-        - [x] Rust
-        - [x] Scala
-        - [x] SQL
-        - [x] Vimscript
-        - [x] [VURL](https://github.com/javio7/nvim-vurl)
-        - [x] XML
-    - 80% accurate match
-        - [ ] Ruby (80% accurate)
-        - [ ] Javascript (80% accurate)
-        - [ ] Typescript (80% accurate)
-        - [ ] Go (80% accurate)
-        - [ ] Haskell (80% accurate)
+    - [x] Bash
+    - [x] C
+    - [x] C++
+    - [x] CSS
+    - [x] Go
+    - [x] Haskell
+    - [x] HTML
+    - [x] Java
+    - [x] Javascript
+    - [x] JSON
+    - [x] Kotlin
+    - [x] Lua
+    - [x] Perl
+    - [x] Plant UML
+    - [x] Python
+    - [ ] Ruby
+    - [x] Rust
+    - [x] Scala
+    - [x] SQL
+    - [ ] Typescript
+    - [x] Vimscript
+    - [x] [VURL](https://github.com/javio7/nvim-vurl)
+    - [x] XML
 - [x] Integrations
     - [x] [Lualine](https://github.com/nvim-lualine/lualine.nvim) 
     - [x] [NvimTree](https://github.com/nvim-tree/nvim-tree.lua) 
