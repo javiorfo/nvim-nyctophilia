@@ -62,6 +62,7 @@ return {
         require'nyctovim.syntax.haskell'
         require'nyctovim.syntax.json'
         require'nyctovim.syntax.sql'
+        require'nyctovim.syntax.scala'
 
         pcall(function()
             require'lualine'.setup{
