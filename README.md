@@ -16,6 +16,7 @@
     - [x] C
     - [x] C++
     - [x] CSS
+    - [x] [Diamond](https://github.com/javio7/nvim-diamond)
     - [x] Go
     - [x] Haskell
     - [x] HTML
@@ -33,7 +34,6 @@
     - [x] SQL
     - [ ] Typescript
     - [x] Vimscript
-    - [x] [VURL](https://github.com/javio7/nvim-vurl)
     - [x] XML
 - [x] Integrations
     - [x] [Lualine](https://github.com/nvim-lualine/lualine.nvim) 
