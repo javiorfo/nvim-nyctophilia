@@ -59,20 +59,20 @@ use 'charkuils/nvim-nyctovim'
 vim.cmd[[colorscheme silentium]]
 ```
 ## Screenshots
-#### colorscheme `silentium` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/charkuils/img/blob/master/nvim-nyctovim/silentium-lua.png?raw=true) and [Rust](https://github.com/charkuils/img/blob/master/nvim-nyctovim/silentium-rust.png?raw=true)
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/silentium-java.png?raw=true" alt="java" width="1200"/>
+#### colorscheme `silentium` with Lua
+<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="silentium" width="700"/>
 
-#### colorscheme `umbra` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/charkuils/img/blob/master/nvim-nyctovim/umbra-lua.png?raw=true) and [Rust](https://github.com/charkuils/img/blob/master/nvim-nyctovim/umbra-rust.png?raw=true)
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/umbra-java.png?raw=true" alt="java" width="1200"/>
+#### colorscheme `umbra` with Lua
+<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="umbra" width="700"/>
 
-#### colorscheme `nox` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/charkuils/img/blob/master/nvim-nyctovim/nox-lua.png?raw=true) and [Rust](https://github.com/charkuils/img/blob/master/nvim-nyctovim/nox-rust.png?raw=true)
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/nox-java.png?raw=true" alt="java" width="1200"/>
+#### colorscheme `nox` with Java
+<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="nox" width="700"/>
 
-#### colorscheme `atra` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/charkuils/img/blob/master/nvim-nyctovim/atra-lua.png?raw=true) and [Rust](https://github.com/charkuils/img/blob/master/nvim-nyctovim/atra-rust.png?raw=true)
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/atra-java.png?raw=true" alt="java" width="1200"/>
+#### colorscheme `atra` with Rust
+<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="atra" width="700"/>
 
-#### colorscheme `caligo` with Java (integrated with NvimTree and Lualine). More screenshots with [Lua](https://github.com/charkuils/img/blob/master/nvim-nyctovim/caligo-lua.png?raw=true) and [Rust](https://github.com/charkuils/img/blob/master/nvim-nyctovim/caligo-rust.png?raw=true)
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/caligo-java.png?raw=true" alt="java" width="1200"/>
+#### colorscheme `caligo` with Java
+<img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
 
 ## Support
 - [Paypal](https://www.paypal.com/donate/?hosted_button_id=DT5ZGHRJKYJ8C)
