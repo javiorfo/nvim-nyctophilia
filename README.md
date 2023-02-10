@@ -1,5 +1,6 @@
 # nvim-nyctovim
-*nvim-nyctovim is a set of nyctophiliac colorschemes for Neovim written in Lua.*
+### :waning_crescent_moon: Colorschemes for nyctophiliacs
+*nvim-nyctovim is a set of dark colorschemes for Neovim written in Lua.*
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
