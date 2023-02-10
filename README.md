@@ -13,10 +13,10 @@
     - [x] umbra
 - [x] Supported syntax **(nvim-treesitter no needed)**
     - [x] Bash
+    - [x] [CAFE](https://github.com/javio7/nvim-cafe)
     - [x] C
     - [x] C++
     - [x] CSS
-    - [x] [Diamond](https://github.com/javio7/nvim-diamond)
     - [x] Go
     - [x] Haskell
     - [x] HTML

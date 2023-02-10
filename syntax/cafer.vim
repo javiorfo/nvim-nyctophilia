@@ -7,6 +7,6 @@ if exists('b:current_syntax')
   finish
 endif
 
-let b:current_syntax = "dmndr"
+let b:current_syntax = "cafer"
 
-lua require("nyctovim.syntax.dmnd")()
+lua require("nyctovim.syntax.cafe")()
