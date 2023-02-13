@@ -14,7 +14,6 @@
     - [x] umbra
 - [x] Supported syntax **(nvim-treesitter no needed)**
     - [x] Bash
-    - [x] [CAFE](https://github.com/charkuils/nvim-cafe)
     - [x] C
     - [x] C++
     - [x] CSS
@@ -32,6 +31,7 @@
     - [ ] Ruby
     - [x] Rust
     - [x] Scala
+    - [x] [SHIP](https://github.com/charkuils/nvim-ship)
     - [x] SQL
     - [ ] Typescript
     - [x] Vimscript
