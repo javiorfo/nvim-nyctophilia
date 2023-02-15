@@ -73,6 +73,3 @@ vim.cmd[[colorscheme silentium]]
 
 #### colorscheme `caligo` with Java
 <img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
-
-## Support
-- [Paypal](https://www.paypal.com/donate/?hosted_button_id=DT5ZGHRJKYJ8C)
