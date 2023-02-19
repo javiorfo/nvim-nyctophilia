@@ -73,3 +73,6 @@ vim.cmd[[colorscheme silentium]]
 
 #### colorscheme `caligo` with Java
 <img src="https://github.com/charkuils/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
+
+### Support
+- [Binance](https://www.binance.com/en/my/wallet/account/payment/send): `Pay ID: 546639204`
