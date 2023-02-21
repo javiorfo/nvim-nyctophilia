@@ -1,7 +1,7 @@
--- ##########################################################
--- # Maintainer: Mr. Charkuils                              #
--- # URL:        https://github.com/charkuils/nvim-nyctovim #
--- ##########################################################
+-- #########################################################
+-- # Maintainer: Javier Orfo                               #
+-- # URL:        https://github.com/javiorfo/nvim-nyctovim #
+-- #########################################################
 
 local util = require'nyctovim.util'
 local linkAll = util.linkAll
