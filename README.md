@@ -29,10 +29,12 @@
     - [x] Plant UML
     - [x] Python
     - [ ] Ruby
+    - [x] Ron
     - [x] Rust
     - [x] Scala
     - [x] [SHIP](https://github.com/javiorfo/nvim-ship)
     - [x] SQL
+    - [x] TOML
     - [ ] Typescript
     - [x] Vimscript
     - [x] XML
