@@ -8,7 +8,7 @@ local linkAll = util.linkAll
 local synKeyword = util.synKeyword
 
 return function()
-    synKeyword("javaTypeDef", "this", "super", "null")
+    synKeyword("javaTypeDef", "this", "null")
     synKeyword("javaBoolean", "true", "false")
     synKeyword("javaLabel", "case", "default")
     synKeyword("javaError", "goto", "const")
@@ -23,7 +23,7 @@ return function()
     synKeyword("javaException", "throw", "try", "catch", "finally")
     synKeyword("javaType", "void", "char", "byte", "short", "int", "long", "boolean", "float", "double", "var")
     synKeyword("javaStorageClass", "static", "transient", "final", "abstract", "volatile", "native", "synchronized")
-    synKeyword("javaStructure", "interface", "enum", "extends", "implements", "permits", "throws", "record")
+    synKeyword("javaStructure", "interface", "super", "enum", "extends", "implements", "permits", "throws", "record")
 
 
     vim.cmd [[syn match   javaComment			 '//.*']]
@@ -36,8 +36,9 @@ return function()
     vim.cmd [[syn match   javaTodo			     "\v<(TODO|FIXME)" containedin=ALL]]
     vim.cmd [[syn match   javaString			 '\v"%([^\\"]|\\.)*"']]
     vim.cmd [[syn match   javaAnnotation		 "\v(\w)@<!\@[[:alnum:]_.]*(:[[:alnum:]_.]*)?"]]
-    vim.cmd [[syn match   javaDotClass         ".class"]]
-    vim.cmd [[syn match   javaClass            "[^\.]class[[:space:]_.]"]]
+    vim.cmd [[syn match   javaDotClass         "\.class"]]
+--     vim.cmd [[syn match   javaClass            "[^\.]class[[:space:]_.]"]]
+    vim.cmd [[syn match   javaClass            "class[[:space:]_.]"]]
     vim.cmd [[syn match   javaEnumConst        "\<\([A-Z][A-Z0-9_]\+\)\>"]]
 
     vim.cmd [[syn region  javaComment			 start='/\*' end='\*/']]
