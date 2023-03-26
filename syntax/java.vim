@@ -1,7 +1,7 @@
-" #########################################################
-" # Maintainer: Javier Orfo                               #
-" # URL:        https://github.com/javiorfo/nvim-nyctovim #
-" #########################################################
+" ###########################################################
+" # Maintainer: System Malt                                 #
+" # URL:        https://github.com/systemmalt/nvim-nyctovim #
+" ###########################################################
 
 if exists("b:current_syntax")
     finish
