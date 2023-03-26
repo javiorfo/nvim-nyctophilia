@@ -1,7 +1,7 @@
--- #########################################################
--- # Maintainer: Javier Orfo                               #
--- # URL:        https://github.com/javiorfo/nvim-nyctovim #
--- #########################################################
+-- ###########################################################
+-- # Maintainer: System Malt                                 #
+-- # URL:        https://github.com/systemmalt/nvim-nyctovim #
+-- ###########################################################
 
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
