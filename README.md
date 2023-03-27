@@ -1,5 +1,5 @@
 # nvim-nyctovim
-### :waning_crescent_moon: Colorschemes for nyctophiliacs
+### Colorschemes for nyctophiliacs
 *nvim-nyctovim is a set of dark colorschemes for Neovim written in Lua.*
 
 ## Caveats
