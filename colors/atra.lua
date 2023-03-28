@@ -1,6 +1,6 @@
--- ###########################################################
--- # Maintainer: System Malt                                 #
--- # URL:        https://github.com/systemmalt/nvim-nyctovim #
--- ###########################################################
+-- #########################################################
+-- # Maintainer: Javier Orfo                               #
+-- # URL:        https://github.com/javiorfo/nvim-nyctovim #
+-- #########################################################
 
 require'nyctovim.themes.atra'
