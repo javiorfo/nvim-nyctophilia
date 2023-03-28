@@ -32,7 +32,7 @@
     - [x] Ron
     - [x] Rust
     - [x] Scala
-    - [x] [SHIP](https://github.com/systemmalt/nvim-ship)
+    - [x] [SHIP](https://github.com/javiorfo/nvim-ship)
     - [x] SQL
     - [x] TOML
     - [ ] Typescript
@@ -48,11 +48,11 @@
 ## Installation
 `Vim Plug`
 ```vim
-Plug 'systemmalt/nvim-nyctovim'
+Plug 'javiorfo/nvim-nyctovim'
 ```
 `Packer`
 ```lua
-use 'systemmalt/nvim-nyctovim'
+use 'javiorfo/nvim-nyctovim'
 ```
 ## Configuration 
 - Set up *init.lua* (Neovim)
@@ -62,16 +62,16 @@ vim.cmd[[colorscheme silentium]]
 ```
 ## Screenshots
 #### colorscheme `silentium` with Lua
-<img src="https://github.com/systemmalt/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="silentium" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="silentium" width="700"/>
 
 #### colorscheme `umbra` with Lua
-<img src="https://github.com/systemmalt/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="umbra" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="umbra" width="700"/>
 
 #### colorscheme `nox` with Java
-<img src="https://github.com/systemmalt/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="nox" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="nox" width="700"/>
 
 #### colorscheme `atra` with Rust
-<img src="https://github.com/systemmalt/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="atra" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="atra" width="700"/>
 
 #### colorscheme `caligo` with Java
-<img src="https://github.com/systemmalt/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
