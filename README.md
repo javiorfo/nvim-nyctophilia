@@ -57,20 +57,20 @@ use 'javiorfo/nvim-whisky'
 - Set up *init.lua* (Neovim)
 ```lua
 -- Available themes: malt, blend, cask, smoky and peat
-vim.cmd[[colorscheme silentium]]
+vim.cmd[[colorscheme malt]]
 ```
 ## Screenshots
 #### colorscheme `malt` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="malt" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malg.png?raw=true" alt="malt" width="700"/>
 
 #### colorscheme `smoky` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="smoky" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="smoky" width="700"/>
 
 #### colorscheme `blend` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="blend" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="blend" width="700"/>
 
 #### colorscheme `peat` with Rust
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="peat" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
 
 #### colorscheme `cask` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="cask" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-cask.png?raw=true" alt="cask" width="700"/>
