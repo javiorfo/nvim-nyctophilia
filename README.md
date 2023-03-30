@@ -61,7 +61,7 @@ vim.cmd[[colorscheme malt]]
 ```
 ## Screenshots
 #### colorscheme `malt` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malg.png?raw=true" alt="malt" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="malt" width="700"/>
 
 #### colorscheme `smoky` with Lua
 <img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="smoky" width="700"/>
