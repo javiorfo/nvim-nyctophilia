@@ -1,6 +1,5 @@
-# nvim-nyctovim
-### Colorschemes for nyctophiliacs
-*nvim-nyctovim is a set of dark colorschemes for Neovim written in Lua.*
+# nvim-whisky
+*nvim-whisky is a set of dark colorschemes for Neovim written in Lua.*
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
@@ -12,7 +11,7 @@
     - [x] nox
     - [x] silentium
     - [x] umbra
-- [x] Supported syntax **(nvim-treesitter no needed)**
+- [x] Supported syntax
     - [x] Bash
     - [x] C
     - [x] C++
@@ -48,30 +47,30 @@
 ## Installation
 `Vim Plug`
 ```vim
-Plug 'javiorfo/nvim-nyctovim'
+Plug 'javiorfo/nvim-whisky'
 ```
 `Packer`
 ```lua
-use 'javiorfo/nvim-nyctovim'
+use 'javiorfo/nvim-whisky'
 ```
 ## Configuration 
 - Set up *init.lua* (Neovim)
 ```lua
--- Available themes: atra, nox, umbra, silentium and caligo
+-- Available themes: malt, blend, cask, smoky and peat
 vim.cmd[[colorscheme silentium]]
 ```
 ## Screenshots
-#### colorscheme `silentium` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="silentium" width="700"/>
+#### colorscheme `malt` with Lua
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-silentium.png?raw=true" alt="malt" width="700"/>
 
-#### colorscheme `umbra` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="umbra" width="700"/>
+#### colorscheme `smoky` with Lua
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/lua-umbra.png?raw=true" alt="smoky" width="700"/>
 
-#### colorscheme `nox` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="nox" width="700"/>
+#### colorscheme `blend` with Java
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-nox.png?raw=true" alt="blend" width="700"/>
 
-#### colorscheme `atra` with Rust
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="atra" width="700"/>
+#### colorscheme `peat` with Rust
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/rust-atra.png?raw=true" alt="peat" width="700"/>
 
-#### colorscheme `caligo` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="caligo" width="700"/>
+#### colorscheme `cask` with Java
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctovim/java-caligo.png?raw=true" alt="cask" width="700"/>

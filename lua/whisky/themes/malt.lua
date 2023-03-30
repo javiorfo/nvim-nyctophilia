@@ -1,12 +1,12 @@
--- #########################################################
--- # Maintainer: Javier Orfo                               #
--- # URL:        https://github.com/javiorfo/nvim-nyctovim #
--- #########################################################
+-- #######################################################
+-- # Maintainer: Javier Orfo                             #
+-- # URL:        https://github.com/javiorfo/nvim-whisky #
+-- #######################################################
 
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
 vim.o.termguicolors = true
-vim.g.colors_name = "silentium"
+vim.g.colors_name = "malt"
 
 local highlights = {
         hi_1  = { fg = 255, bg = 235 },
@@ -39,4 +39,4 @@ local highlights = {
         hi_28 = { fg = 234, bg = 234 }
 }
 
-require'nyctovim.builder'.build(highlights)
+require'whisky.builder'.build(highlights)

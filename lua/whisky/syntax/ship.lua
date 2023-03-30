@@ -1,9 +1,9 @@
--- #########################################################
--- # Maintainer: Javier Orfo                               #
--- # URL:        https://github.com/javiorfo/nvim-nyctovim #
--- #########################################################
+-- #######################################################
+-- # Maintainer: Javier Orfo                             #
+-- # URL:        https://github.com/javiorfo/nvim-whisky #
+-- #######################################################
 
-local util = require'nyctovim.util'
+local util = require'whisky.util'
 local linkAll = util.linkAll
 local synKeyword = util.synKeyword
 

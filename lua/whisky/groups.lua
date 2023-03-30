@@ -1,7 +1,7 @@
--- #########################################################
--- # Maintainer: Javier Orfo                               #
--- # URL:        https://github.com/javiorfo/nvim-nyctovim #
--- #########################################################
+-- #######################################################
+-- # Maintainer: Javier Orfo                             #
+-- # URL:        https://github.com/javiorfo/nvim-whisky #
+-- #######################################################
 
 return {
     set_groups = function(highlights)

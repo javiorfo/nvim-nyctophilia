@@ -1,9 +1,9 @@
--- #########################################################
--- # Maintainer: Javier Orfo                               #
--- # URL:        https://github.com/javiorfo/nvim-nyctovim #
--- #########################################################
+-- #######################################################
+-- # Maintainer: Javier Orfo                             #
+-- # URL:        https://github.com/javiorfo/nvim-whisky #
+-- #######################################################
 
-local util = require'nyctovim.util'
+local util = require'whisky.util'
 
 -- Integration with Lualine
 local function set_lualine_colors(highlights)
@@ -56,13 +56,13 @@ end
 return {
     build = function(highlights)
         util.highlightAll(
-            require'nyctovim.groups'.set_groups(highlights)
+            require'whisky.groups'.set_groups(highlights)
         )
-        require'nyctovim.syntax.javascript'
-        require'nyctovim.syntax.haskell'
-        require'nyctovim.syntax.json'
-        require'nyctovim.syntax.sql'
-        require'nyctovim.syntax.scala'
+        require'whisky.syntax.javascript'
+        require'whisky.syntax.haskell'
+        require'whisky.syntax.json'
+        require'whisky.syntax.sql'
+        require'whisky.syntax.scala'
 
         pcall(function()
             require'lualine'.setup{

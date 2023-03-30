@@ -3,4 +3,10 @@
 -- # URL:        https://github.com/javiorfo/nvim-whisky #
 -- #######################################################
 
-vim.cmd[[au BufRead,BufNewFile *.ron set filetype=ron]]
+local linkAll = require'whisky.util'.linkAll
+
+linkAll {
+    javaScriptNull       = "Boolean",
+    javaScriptIdentifier = "Type",
+    javaScriptReserved   = "Type"
+}

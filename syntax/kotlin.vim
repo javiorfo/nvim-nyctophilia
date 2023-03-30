@@ -1,7 +1,7 @@
-" #########################################################
-" # Maintainer: Javier Orfo                               #
-" # URL:        https://github.com/javiorfo/nvim-nyctovim #
-" #########################################################
+" #######################################################
+" # Maintainer: Javier Orfo                             #
+" # URL:        https://github.com/javiorfo/nvim-whisky #
+" #######################################################
 
 if exists('b:current_syntax')
     finish
@@ -9,4 +9,4 @@ endif
 
 let b:current_syntax = "kotlin"
 
-lua require("nyctovim.syntax.kotlin")()
+lua require("whisky.syntax.kotlin")()
