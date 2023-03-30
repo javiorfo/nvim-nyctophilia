@@ -28,10 +28,14 @@ return function()
     vim.cmd [[syn match rustBrackets			                 '[\[\]{}=]']]
     vim.cmd [[syn match rustBrackets			                 ' => ']]
     vim.cmd [[syn match rustBrackets			                 ' != ']]
-    vim.cmd [[syn match rustSign  			                     '[+*]']]
+    vim.cmd [[syn match rustSign  			                     '[+*-]']]
     vim.cmd [[syn match rustSign 			                     ' / ']]
-    vim.cmd [[syn match rustSign  			                     ' - ']]
+    vim.cmd [[syn match rustSign  			                     '+=']]
+    vim.cmd [[syn match rustSign  			                     '-=']]
+    vim.cmd [[syn match rustSign  			                     '*=']]
+    vim.cmd [[syn match rustSign  			                     '/=']]
     vim.cmd [[syn match rustSign  			                     '->']]
+    vim.cmd [[syn match rustEnumConst        "\<\([A-Z][A-Z0-9_]\+\)\>"]]
 
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start=+b"+ skip=+\\\\\|\\"+ end=+"+ ]]
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start=+"+ skip=+\\\\\|\\"+ end=+"+ ]]
@@ -55,6 +59,7 @@ return function()
         rustBoolean              = "Boolean",
         rustSign                 = "Boolean",
         rustEnum                 = "Constant",
+        rustEnumConst            = "EnumConst",
         rustSelf                 = "Constant",
         rustKeyword              = "Type",
         rustBrackets             = "Type",
