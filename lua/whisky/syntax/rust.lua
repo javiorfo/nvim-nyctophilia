@@ -13,7 +13,7 @@ return function()
     synKeyword("rustTypedef", "type", "as", "use", "await", "pub", "extern")
     synKeyword("rustStructure", "struct", "enum", "union", "existencial")
     synKeyword("rustKeyword", "break", "box", "continue", "crate", "impl", "let", "macro", "return", "yield", "super",
-        "where", "unsafe", "fn")
+        "where", "unsafe", "fn", "dyn")
     synKeyword("rustKeyword", "mod", "trait", "await")
     synKeyword("rustStorage", "move", "mut", "ref", "static", "const")
     synKeyword("rustKeyword", "become", "do", "priv", "typeof", "unsized", "abstract", "virtual", "final", "override")
