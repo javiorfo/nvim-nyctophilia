@@ -40,7 +40,9 @@ return function()
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start=+b"+ skip=+\\\\\|\\"+ end=+"+ ]]
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start=+"+ skip=+\\\\\|\\"+ end=+"+ ]]
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start='b\?r\z(#*\)"' end='"\z1' ]]
-    vim.cmd [[syn region rustMacro  start="#\[" end="\]" ]]
+
+    vim.cmd [[syn region rustMacroParam start="(" end=")" contains=rustString]]
+    vim.cmd [[syn region rustMacro  start="#\[" end="\]" contains=rustMacroParam ]]
 
     vim.cmd [[syn region rustCommentLine                                                  start="//"                      end="$"   contains=rustTodo]]
     vim.cmd [[syn region rustCommentLineDoc                                               start="//\%(//\@!\|!\)"         end="$"   contains=rustTodo]]
@@ -70,6 +72,7 @@ return function()
         rustConditional          = "Conditional",
         rustIdentifier           = "Identifier",
         rustMacro                = "Annotation",
+        rustMacroParam           = "NormalItalic",
         rustType                 = "Boolean",
         rustTodo                 = "TODO",
         rustStorage              = "StorageClass",

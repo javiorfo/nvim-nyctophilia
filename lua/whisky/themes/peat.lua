@@ -36,7 +36,8 @@ local highlights = {
         hi_25 = { fg = 228, gui = "bold,italic" },
         hi_26 = { fg = 248, bg = 234 },
         hi_27 = { fg = 232, bg = 232 },
-        hi_28 = { fg = 234, bg = 234 }
+        hi_28 = { fg = 234, bg = 234 },
+        hi_29 = { fg = 248, bg = 232, gui = "italic" }
 }
 
 require'whisky.builder'.build(highlights)

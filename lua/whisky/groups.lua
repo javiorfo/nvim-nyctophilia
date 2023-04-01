@@ -67,6 +67,7 @@ return {
             SignColumn     = highlights.hi_26,
             VertSplit      = highlights.hi_27,
             StatuslineNC   = highlights.hi_28,
+            NormalItalic   = highlights.hi_29
         }
     end
 }
