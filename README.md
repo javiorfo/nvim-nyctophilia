@@ -6,11 +6,11 @@
 
 ## Overview
 - [x] Colorschemes
-    - [x] atra
-    - [x] caligo
-    - [x] nox
-    - [x] silentium
-    - [x] umbra
+    - [x] blend
+    - [x] malt
+    - [x] peat
+    - [x] smoky
+    - [x] cask
 - [x] Supported syntax
     - [x] Bash
     - [x] C
