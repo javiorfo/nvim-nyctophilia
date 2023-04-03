@@ -53,7 +53,7 @@ return function()
         javaClass         = "Type",
         javaComment       = "Comment",
         javaBrackets      = "Type",
-        javaSign          = "Boolean",
+        javaSign          = "Type",
         javaDotClass      = "Boolean",
         javaEnumConst     = "EnumConst",
         javaAnnotation    = "Annotation",

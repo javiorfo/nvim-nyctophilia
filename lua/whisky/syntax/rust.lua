@@ -59,7 +59,7 @@ return function()
         rustString               = "String",
         rustStringDelimiter      = "String",
         rustBoolean              = "Boolean",
-        rustSign                 = "Boolean",
+        rustSign                 = "Type",
         rustEnum                 = "Constant",
         rustEnumConst            = "EnumConst",
         rustSelf                 = "Constant",
