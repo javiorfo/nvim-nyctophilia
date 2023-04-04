@@ -46,13 +46,10 @@ return function()
 
     vim.cmd [[syn region rustCommentLine                                                  start="//"                      end="$"   contains=rustTodo]]
     vim.cmd [[syn region rustCommentLineDoc                                               start="//\%(//\@!\|!\)"         end="$"   contains=rustTodo]]
-    vim.cmd [[syn region rustCommentLineDocError                                          start="//\%(//\@!\|!\)"         end="$"   contains=rustTodo]]
     vim.cmd [[syn region rustCommentBlock             matchgroup=rustCommentBlock         start="/\*\%(!\|\*[*/]\@!\)\@!" end="\*/" contains=rustTodo]]
     vim.cmd [[syn region rustCommentBlockDoc          matchgroup=rustCommentBlockDoc      start="/\*\%(!\|\*[*/]\@!\)"    end="\*/" contains=rustTodo]]
-    vim.cmd [[syn region rustCommentBlockDocError     matchgroup=rustCommentBlockDocError start="/\*\%(!\|\*[*/]\@!\)"    end="\*/" contains=rustTodo]]
     vim.cmd [[syn region rustCommentBlockNest         matchgroup=rustCommentBlock         start="/\*"                     end="\*/" contains=rustTodo]]
     vim.cmd [[syn region rustCommentBlockDocNest      matchgroup=rustCommentBlockDoc      start="/\*"                     end="\*/" contains=rustTodo]]
-    vim.cmd [[syn region rustCommentBlockDocNestError matchgroup=rustCommentBlockDocError start="/\*"                     end="\*/" contains=rustTodo]]
 
     linkAll{
         rustStringContinuation   = "Special",
@@ -77,13 +74,11 @@ return function()
         rustTodo                 = "TODO",
         rustStorage              = "StorageClass",
         rustCommentLine          = "Comment",
-        rustCommentLineDoc       = "SpecialComment",
+        rustCommentLineDoc       = "Comment",
         rustCommentLineDocLeader = "rustCommentLineDoc",
-        rustCommentLineDocError  = "Error",
         rustCommentBlock         = "rustCommentLine",
         rustCommentBlockDoc      = "rustCommentLineDoc",
         rustCommentBlockDocStar  = "rustCommentBlockDoc",
-        rustCommentBlockDocError = "Error",
         rustCommentDocCodeFence  = "rustCommentLineDoc",
     }
 end
