@@ -1,7 +1,7 @@
--- #######################################################
--- # Maintainer: Javier Orfo                             #
--- # URL:        https://github.com/javiorfo/nvim-whisky #
--- #######################################################
+-- ########################################################
+-- # Maintainer: Javier Orfo                              #
+-- # URL:        https://github.com/whiskoder/nvim-whisky #
+-- ########################################################
 
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
