@@ -1,6 +1,6 @@
--- #######################################################
--- # Maintainer: Javier Orfo                             #
--- # URL:        https://github.com/javiorfo/nvim-whisky #
--- #######################################################
+-- ########################################################
+-- # Maintainer: Javier Orfo                              #
+-- # URL:        https://github.com/whiskoder/nvim-whisky #
+-- ########################################################
 
 require'whisky.themes.peat'
