@@ -61,6 +61,7 @@ return {
         require'whisky.syntax.javascript'
         require'whisky.syntax.haskell'
         require'whisky.syntax.json'
+        require'whisky.syntax.lua'
         require'whisky.syntax.sql'
         require'whisky.syntax.scala'
 
