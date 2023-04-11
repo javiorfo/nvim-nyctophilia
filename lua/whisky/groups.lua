@@ -1,8 +1,3 @@
--- ########################################################
--- # Maintainer: Mr. Charkuils                            #
--- # URL:        https://github.com/charkuils/nvim-whisky #
--- ########################################################
-
 return {
     set_groups = function(highlights)
         return {
