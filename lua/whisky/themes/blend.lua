@@ -1,8 +1,3 @@
--- ########################################################
--- # Maintainer: Mr. Charkuils                            #
--- # URL:        https://github.com/charkuils/nvim-whisky #
--- ########################################################
-
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
 vim.o.termguicolors = true
