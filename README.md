@@ -46,11 +46,11 @@
 ## Installation
 `Vim Plug`
 ```vim
-Plug 'charkuils/nvim-whisky'
+Plug 'javiorfo/nvim-whisky'
 ```
 `Packer`
 ```lua
-use 'charkuils/nvim-whisky'
+use 'javiorfo/nvim-whisky'
 ```
 ## Configuration 
 - Set up *init.lua* (Neovim)
@@ -60,16 +60,16 @@ vim.cmd[[colorscheme malt]]
 ```
 ## Screenshots
 #### colorscheme `malt` with Lua
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="malt" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="malt" width="700"/>
 
 #### colorscheme `smoky` with Lua
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="smoky" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="smoky" width="700"/>
 
 #### colorscheme `blend` with Java
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="blend" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="blend" width="700"/>
 
 #### colorscheme `peat` with Rust
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
 
 #### colorscheme `cask` with Java
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/java-cask.png?raw=true" alt="cask" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-cask.png?raw=true" alt="cask" width="700"/>
