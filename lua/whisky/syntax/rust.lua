@@ -35,6 +35,8 @@ return function()
     vim.cmd [[syn match rustSign  			                     '*=']]
     vim.cmd [[syn match rustSign  			                     '/=']]
     vim.cmd [[syn match rustSign  			                     '->']]
+    vim.cmd [[syn match rustSign  			                     '>=']]
+    vim.cmd [[syn match rustSign  			                     '<=']]
     vim.cmd [[syn match rustEnumConst        "\<\([A-Z][A-Z0-9_]\+\)\>"]]
 
     vim.cmd [[syn region rustString matchgroup=rustStringDelimiter start=+b"+ skip=+\\\\\|\\"+ end=+"+ ]]

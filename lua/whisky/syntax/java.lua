@@ -34,6 +34,8 @@ return function()
     vim.cmd [[syn match   javaSign  			 '-=']]
     vim.cmd [[syn match   javaSign  			 '*=']]
     vim.cmd [[syn match   javaSign  			 '/=']]
+    vim.cmd [[syn match   javaSign  			 '<=']]
+    vim.cmd [[syn match   javaSign  			 '>=']]
     vim.cmd [[syn match   javaSign 			     ' / ']]
     vim.cmd [[syn match   javaSign 			     ' -> ']]
     vim.cmd [[syn match   javaTodo			     "\v<(TODO|FIXME)" containedin=ALL]]
