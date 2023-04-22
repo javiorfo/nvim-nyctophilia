@@ -44,14 +44,15 @@
 
 
 ## Installation
-`Vim Plug`
-```vim
-Plug 'charkuils/nvim-whisky'
-```
 `Packer`
 ```lua
 use 'charkuils/nvim-whisky'
 ```
+`Lazy`
+```lua
+{ 'charkuils/nvim-whisky' }
+```
+
 ## Configuration 
 - Set up *init.lua* (Neovim)
 ```lua
