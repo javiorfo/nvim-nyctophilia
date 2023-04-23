@@ -10,7 +10,6 @@
     - [x] malt
     - [x] peat
     - [x] smoky
-    - [x] cask
 - [x] Supported syntax
     - [x] Bash
     - [x] C
@@ -56,7 +55,7 @@ use 'charkuils/nvim-whisky'
 ## Configuration 
 - Set up *init.lua* (Neovim)
 ```lua
--- Available themes: malt, blend, cask, smoky and peat
+-- Available themes: malt, blend, smoky and peat
 vim.cmd[[colorscheme malt]]
 ```
 ## Screenshots
@@ -71,6 +70,3 @@ vim.cmd[[colorscheme malt]]
 
 #### colorscheme `peat` with Rust
 <img src="https://github.com/charkuils/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
-
-#### colorscheme `cask` with Java
-<img src="https://github.com/charkuils/img/blob/master/nvim-whisky/java-cask.png?raw=true" alt="cask" width="700"/>
