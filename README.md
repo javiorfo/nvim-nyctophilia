@@ -70,3 +70,7 @@ vim.cmd[[colorscheme malt]]
 
 #### colorscheme `peat` with Rust
 <img src="https://github.com/charkuils/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
+
+## Support Charkuils' Work
+
+<img src="https://github.com/charkuils/img/blob/master/binance/BinancePayQR.png?raw=true" alt="binance" style="width:300px;"/>
