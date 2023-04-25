@@ -5,42 +5,12 @@
 - This plugin has been developed on and for Linux following open source philosophy.
 
 ## Overview
-- [x] Colorschemes
-    - [x] blend
-    - [x] malt
-    - [x] peat
-    - [x] smoky
-- [x] Supported syntax
-    - [x] Bash
-    - [x] C
-    - [x] C++
-    - [x] CSS
-    - [x] Go
-    - [x] Haskell
-    - [x] HTML
-    - [x] Java
-    - [x] Javascript
-    - [x] JSON
-    - [x] Kotlin
-    - [x] Lua
-    - [x] Perl
-    - [x] Plant UML
-    - [x] Python
-    - [ ] Ruby
-    - [x] Ron
-    - [x] Rust
-    - [x] Scala
-    - [x] SQL
-    - [x] TOML
-    - [ ] Typescript
-    - [x] Vimscript
-    - [x] XML
-- [x] Integrations
-    - [x] [Lualine](https://github.com/nvim-lualine/lualine.nvim) 
-    - [x] [NvimTree](https://github.com/nvim-tree/nvim-tree.lua) 
-    - [x] [NerdTree](https://github.com/preservim/nerdtree)
-    - [ ] [Vim-airline](https://github.com/vim-airline/vim-airline) 
-
+- **Colorschemes**
+    - blend, malt, peat, smoky
+- **Supported syntax**
+    - Bash, C, C++, CSS, Go, Haskell, HTML, Java, JavaScript, JSON, Kotlin, Lua, Perl, Plant UML, Python, Ruby, Ron, Rust, Scala, SQL, TOML, TypeScript, VimScript, XML
+- **Integrations**
+    - [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree), [Vim-airline](https://github.com/vim-airline/vim-airline) 
 
 ## Installation
 `Packer`
