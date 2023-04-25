@@ -19,11 +19,18 @@ use 'javiorfo/nvim-whisky'
 ```
 `Lazy`
 ```lua
-{ 'javiorfo/nvim-whisky' }
+{ 
+    'javiorfo/nvim-whisky',
+    lazy = false,
+    config = function()
+        -- Available themes: malt, blend, smoky and peat
+        vim.cmd[[colorscheme malt]]
+    end
+}
 ```
 
-## Configuration 
-- Set up *init.lua* (Neovim)
+## Configuration (Packer)
+- Set up *init.lua*
 ```lua
 -- Available themes: malt, blend, smoky and peat
 vim.cmd[[colorscheme malt]]
