@@ -10,7 +10,7 @@
 - **Supported syntax**
     - Bash, C, C++, CSS, Go, Haskell, HTML, Java, JavaScript, JSON, Kotlin, Lua, Perl, Plant UML, Python, Ruby, Ron, Rust, Scala, SQL, TOML, TypeScript, VimScript, XML
 - **Integrations**
-    - [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree), [Vim-airline](https://github.com/vim-airline/vim-airline) 
+    - [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
 
 ## Installation
 `Packer`
