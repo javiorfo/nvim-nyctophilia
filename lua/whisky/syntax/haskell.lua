@@ -2,5 +2,6 @@ local linkAll = require'whisky.util'.linkAll
 
 linkAll {
     hsImport    = "Type",
-    hsImportMod = "Type"
+    hsStructure = "hsImport",
+    hsImportMod = "hsImport"
 }
