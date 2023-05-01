@@ -60,6 +60,7 @@ return {
         require'whisky.syntax.sql'
         require'whisky.syntax.scala'
         require'whisky.syntax.yaml'
+        require'whisky.syntax.xml'
 
         pcall(function()
             require'lualine'.setup{
