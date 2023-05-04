@@ -31,10 +31,15 @@ return function()
     vim.cmd [[syn match ktComment     "/\*\*/"]]
     vim.cmd [[syn match ktEnumConst   "\<\([A-Z][A-Z0-9_]\+\)\>"]]
     vim.cmd [[syn match ktBrackets	  '[\[\]{}=]']]
-    vim.cmd [[syn match ktBrackets    ' != ']]
-    vim.cmd [[syn match ktSign  	  '[+*]']]
+    vim.cmd [[syn match ktSign        '!=']]
+    vim.cmd [[syn match ktSign  	  '[+*-]']]
+    vim.cmd [[syn match ktSign  	  '+=']]
+    vim.cmd [[syn match ktSign  	  '-=']]
+    vim.cmd [[syn match ktSign  	  '*=']]
+    vim.cmd [[syn match ktSign  	  '/=']]
+    vim.cmd [[syn match ktSign  	  '<=']]
+    vim.cmd [[syn match ktSign  	  '>=']]
     vim.cmd [[syn match ktSign 		  ' / ']]
-    vim.cmd [[syn match ktSign 		  ' - ']]
     vim.cmd [[syn match ktSign 		  ' -> ']]
 
     vim.cmd [[syn region ktComment    matchgroup=ktCommentMatchGroup start="/\*" end="\*/" contains=ktComment,ktTodo,@Spell]]
@@ -53,7 +58,7 @@ return function()
         ktException         = "Exception",
         ktInclude           = "Type",
         ktBrackets          = "Type",
-        ktSign              = "Boolean",
+        ktSign              = "Type",
         ktModifier          = "StorageClass",
         ktStructure         = "Type",
         ktTypedef           = "Type",

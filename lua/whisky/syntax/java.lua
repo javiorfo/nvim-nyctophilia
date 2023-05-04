@@ -23,7 +23,7 @@ return function()
 
     vim.cmd [[syn match   javaComment			 '//.*']]
     vim.cmd [[syn match   javaBrackets			 '[\[\]{}=]']]
-    vim.cmd [[syn match   javaBrackets		     ' != ']]
+    vim.cmd [[syn match   javaSign		         '!=']]
     vim.cmd [[syn match   javaSign  			 '[+*-]']]
     vim.cmd [[syn match   javaSign  			 '+=']]
     vim.cmd [[syn match   javaSign  			 '-=']]
