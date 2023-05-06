@@ -61,6 +61,7 @@ return {
         require'whisky.syntax.scala'
         require'whisky.syntax.yaml'
         require'whisky.syntax.xml'
+        require'whisky.syntax.zig'
 
         pcall(function()
             require'lualine'.setup{
