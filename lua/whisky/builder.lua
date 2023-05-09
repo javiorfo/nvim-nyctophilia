@@ -53,6 +53,7 @@ return {
         util.highlightAll(
             require'whisky.groups'.set_groups(highlights)
         )
+        require'whisky.syntax.c'
         require'whisky.syntax.javascript'
         require'whisky.syntax.haskell'
         require'whisky.syntax.json'
