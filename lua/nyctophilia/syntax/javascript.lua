@@ -1,4 +1,4 @@
-local linkAll = require'whisky.util'.linkAll
+local linkAll = require'nyctophilia.util'.linkAll
 
 linkAll {
     javaScriptNull       = "Boolean",

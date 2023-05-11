@@ -1,4 +1,4 @@
-local util = require'whisky.util'
+local util = require'nyctophilia.util'
 
 -- Integration with Lualine
 local function set_lualine_colors(highlights)
@@ -51,18 +51,18 @@ end
 return {
     build = function(highlights)
         util.highlightAll(
-            require'whisky.groups'.set_groups(highlights)
+            require'nyctophilia.groups'.set_groups(highlights)
         )
-        require'whisky.syntax.c'
-        require'whisky.syntax.javascript'
-        require'whisky.syntax.haskell'
-        require'whisky.syntax.json'
-        require'whisky.syntax.lua'
-        require'whisky.syntax.sql'
-        require'whisky.syntax.scala'
-        require'whisky.syntax.yaml'
-        require'whisky.syntax.xml'
-        require'whisky.syntax.zig'
+        require'nyctophilia.syntax.c'
+        require'nyctophilia.syntax.javascript'
+        require'nyctophilia.syntax.haskell'
+        require'nyctophilia.syntax.json'
+        require'nyctophilia.syntax.lua'
+        require'nyctophilia.syntax.sql'
+        require'nyctophilia.syntax.scala'
+        require'nyctophilia.syntax.yaml'
+        require'nyctophilia.syntax.xml'
+        require'nyctophilia.syntax.zig'
 
         pcall(function()
             require'lualine'.setup{

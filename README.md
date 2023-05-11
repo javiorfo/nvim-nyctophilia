@@ -1,28 +1,28 @@
-# nvim-whisky
-*nvim-whisky is a set of dark colorschemes for Neovim written in Lua.*
+# nvim-nyctophilia
+*nvim-nyctophilia is a set of dark colorschemes for Neovim written in Lua.*
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
 
 ## Overview
 - **Colorschemes**
-    - blend, malt, peat, smoky
+    - nox, umbra, nebula, tenebra
 - **Integrations**
     - [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
 
 ## Installation
 `Packer`
 ```lua
-use 'javiorfo/nvim-whisky'
+use 'javiorfo/nvim-nyctophilia'
 ```
 `Lazy`
 ```lua
 { 
-    'javiorfo/nvim-whisky',
+    'javiorfo/nvim-nyctophilia',
     lazy = false,
     config = function()
-        -- Available themes: malt, blend, smoky and peat
-        vim.cmd[[colorscheme malt]]
+        -- Available themes: nox, umbra, nebula and tenebra
+        vim.cmd[[colorscheme umbra]]
     end
 }
 ```
@@ -30,18 +30,30 @@ use 'javiorfo/nvim-whisky'
 ## Configuration (Packer)
 - Set up *init.lua*
 ```lua
--- Available themes: malt, blend, smoky and peat
-vim.cmd[[colorscheme malt]]
+-- Available themes: nox, umbra, nebula and tenebra
+vim.cmd[[colorscheme umbra]]
 ```
+
+## Troubleshooting
+- If using LSP servers disable semantics, otherwise syntax might not look properly
+```lua
+-- Example with C language
+require'lspconfig'.clangd.setup {
+    on_attach = function(client, _)
+        client.server_capabilities.semanticTokensProvider = nil
+    end
+}
+```
+
 ## Screenshots
-#### colorscheme `malt` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="malt" width="700"/>
+#### colorscheme `umbra` with Lua
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="umbra" width="700"/>
 
-#### colorscheme `smoky` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="smoky" width="700"/>
+#### colorscheme `nebula` with Lua
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="nebula" width="700"/>
 
-#### colorscheme `blend` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="blend" width="700"/>
+#### colorscheme `nox` with Java
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="nox" width="700"/>
 
-#### colorscheme `peat` with Rust
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="peat" width="700"/>
+#### colorscheme `tenebra` with Rust
+<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="tenebra" width="700"/>

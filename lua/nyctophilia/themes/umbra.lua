@@ -1,7 +1,7 @@
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
 vim.o.termguicolors = true
-vim.g.colors_name = "malt"
+vim.g.colors_name = "umbra"
 
 local highlights = {
         hi_1  = { fg = 255, bg = 235 },
@@ -26,7 +26,7 @@ local highlights = {
         hi_20 = { fg = 235, bg = 229 },
         hi_21 = { fg = 226, bg = 235 },
         hi_22 = { fg = 245, gui = "underline" },
-        hi_23 = { fg = 123, gui = "italic" },
+        hi_23 = { fg = 86, gui = "italic" },
         hi_24 = { fg = 255, gui = "bold,italic" },
         hi_25 = { fg = 228, gui = "bold,italic" },
         hi_26 = { fg = 255, bg = 234 },
@@ -35,4 +35,4 @@ local highlights = {
         hi_29 = { fg = 255, bg = 235, gui = "italic" }
 }
 
-require'whisky.builder'.build(highlights)
+require'nyctophilia.builder'.build(highlights)

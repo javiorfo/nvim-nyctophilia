@@ -1,7 +1,7 @@
 vim.api.nvim_command("hi clear")
 vim.o.background = "dark"
 vim.o.termguicolors = true
-vim.g.colors_name = "peat"
+vim.g.colors_name = "tenebra"
 
 local highlights = {
         hi_1  = { fg = 248, bg = 232 },
@@ -35,4 +35,4 @@ local highlights = {
         hi_29 = { fg = 248, bg = 232, gui = "italic" }
 }
 
-require'whisky.builder'.build(highlights)
+require'nyctophilia.builder'.build(highlights)

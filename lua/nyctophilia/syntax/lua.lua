@@ -1,5 +1,4 @@
-local util = require 'whisky.util'
-local linkAll = util.linkAll
+local linkAll = require 'nyctophilia.util'.linkAll
 
 linkAll {
     luaFunction = "Type",
