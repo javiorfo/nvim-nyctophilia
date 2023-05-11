@@ -31,7 +31,7 @@ syn match ktDocTag      "\v\@(exception|param|property|throws|see|sample)>\s*\S+
 syn match ktDocTagParam "\v(\s|\[)\S+" contained
 syn match ktComment     "/\*\*/"
 syn match ktEnumConst   "\<\([A-Z][A-Z0-9_]\+\)\>"
-syn match ktBrackets	'[\[\]{}=]'
+syn match ktBrackets	'[\[\]{}()=]'
 syn match ktSign        '!='
 syn match ktSign  	    '[+*-]'
 syn match ktSign  	    '+='

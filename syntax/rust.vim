@@ -22,7 +22,7 @@ syn keyword rustTodo        contained TODO FIXME XXX NB NOTE SAFETY
 
 " Match
 syn match rustStringContinuation display contained /\\\n\s*/
-syn match rustBrackets			 '[\[\]{}=]'
+syn match rustBrackets			 '[\[\]{}()=]'
 syn match rustBrackets			 ' => '
 syn match rustBrackets			 ' != '
 syn match rustSign  			 '[+*-]'
@@ -34,6 +34,8 @@ syn match rustSign  			 '/='
 syn match rustSign  			 '->'
 syn match rustSign  			 '>='
 syn match rustSign  			 '<='
+syn match rustDoubleColon    	 '::'
+syn match rustReference    	     '&'
 syn match rustEnumConst          "\<\([A-Z][A-Z0-9_]\+\)\>"
 
 " Region
@@ -68,6 +70,8 @@ hi link rustIdentifier           Identifier
 hi link rustMacro                Annotation
 hi link rustType                 Boolean
 hi link rustTodo                 TODO
+hi link rustDoubleColon          Define
+hi link rustReference            Type
 hi link rustStorage              StorageClass
 hi link rustCommentLine          Comment
 hi link rustCommentLineDoc       Comment
