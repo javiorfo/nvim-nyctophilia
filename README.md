@@ -1,5 +1,5 @@
 # nvim-nyctophilia
-*nvim-nyctophilia is a set of dark colorschemes for Neovim written in Lua.*
+*nvim-nyctophilia is a set of Neovim colorschemes for nightlovers.*
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
