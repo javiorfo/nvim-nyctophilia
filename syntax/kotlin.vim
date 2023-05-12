@@ -40,6 +40,8 @@ syn match ktSign  	    '*='
 syn match ktSign  	    '/='
 syn match ktSign  	    '<='
 syn match ktSign  	    '>='
+syn match ktSign  	    '&'
+syn match ktSign  	    '|'
 syn match ktSign 		' / '
 syn match ktSign 		' -> '
 

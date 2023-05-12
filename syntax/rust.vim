@@ -34,6 +34,7 @@ syn match rustSign  			 '/='
 syn match rustSign  			 '->'
 syn match rustSign  			 '>='
 syn match rustSign  			 '<='
+syn match rustSign  			 '|'
 syn match rustDoubleColon    	 '::'
 syn match rustReference    	     '&'
 syn match rustEnumConst          "\<\([A-Z][A-Z0-9_]\+\)\>"

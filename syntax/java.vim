@@ -33,6 +33,8 @@ syn match javaSign  	 '*='
 syn match javaSign  	 '/='
 syn match javaSign  	 '<='
 syn match javaSign  	 '>='
+syn match javaSign  	 '&'
+syn match javaSign  	 '|'
 syn match javaSign 		 ' / '
 syn match javaSign 		 ' -> '
 syn match javaTodo		 "\v<(TODO|FIXME)" containedin=ALL
