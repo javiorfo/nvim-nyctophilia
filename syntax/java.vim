@@ -24,7 +24,7 @@ syn keyword javaStructure     interface super enum extends implements permits th
 
 " Match
 syn match javaComment	 '//.*'
-syn match javaBrackets	 '[\[\]{}()=]'
+syn match javaBrackets	 '[\[\]{}=]'
 syn match javaSign		 '!='
 syn match javaSign  	 '[+*-]'
 syn match javaSign  	 '+='

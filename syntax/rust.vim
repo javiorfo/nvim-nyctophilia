@@ -22,7 +22,7 @@ syn keyword rustTodo        contained TODO FIXME XXX NB NOTE SAFETY
 
 " Match
 syn match rustStringContinuation display contained /\\\n\s*/
-syn match rustBrackets			 '[\[\]{}()=]'
+syn match rustBrackets			 '[\[\]{}=]'
 syn match rustBrackets			 ' => '
 syn match rustBrackets			 ' != '
 syn match rustSign  			 '[+*-]'
