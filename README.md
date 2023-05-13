@@ -46,14 +46,14 @@ require'lspconfig'.clangd.setup {
 ```
 
 ## Screenshots
-#### colorscheme `umbra` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-malt.png?raw=true" alt="umbra" width="700"/>
+#### colorscheme `umbra` with Rust
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/rust-umbra.png?raw=true" alt="umbra" width="700"/>
 
-#### colorscheme `nebula` with Lua
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/lua-smoky.png?raw=true" alt="nebula" width="700"/>
+#### colorscheme `nebula` with C
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/c-nebula.png?raw=true" alt="nebula" width="700"/>
 
 #### colorscheme `nox` with Java
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/java-blend.png?raw=true" alt="nox" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/java-nox.png?raw=true" alt="nox" width="700"/>
 
-#### colorscheme `tenebra` with Rust
-<img src="https://github.com/javiorfo/img/blob/master/nvim-whisky/rust-peat.png?raw=true" alt="tenebra" width="700"/>
+#### colorscheme `tenebra` with Lua
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" width="700"/>
