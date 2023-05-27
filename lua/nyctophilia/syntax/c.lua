@@ -5,4 +5,5 @@ linkAll {
     cStructure  = "Type",
     cBraces     = "Type",
     cSign       = "Type",
+    cDefine     = "cInclude",
 }
