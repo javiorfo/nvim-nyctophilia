@@ -9,13 +9,13 @@ syn keyword ktStatement   break continue return
 syn keyword ktConditional if else when
 syn keyword ktRepeat      do for while
 syn keyword ktOperator    in is by
-syn keyword ktKeyword     get set out super this where
+syn keyword ktKeyword     get set out where
 syn keyword ktException   try catch finally throw
 syn keyword ktInclude     import package
 syn keyword ktModifier    annotation companion enum inner abstract final open override sealed vararg dynamic expect actual suspend
 syn keyword ktStructure   class object interface typealias fun val var constructor init
 syn keyword ktBoolean     true false
-syn keyword ktConstant    null
+syn keyword ktConstant    null super this
 syn keyword ktModifier    reified external inline noinline crossinline data value tailrec operator infix const lateinit internal private protected public
 syn keyword ktTodo        TODO FIXME XXX contained
 syn keyword ktIterator    it
