@@ -13,12 +13,12 @@
 ## Installation
 `Packer`
 ```lua
-use 'charkuils/nvim-nyctophilia'
+use 'javiorfo/nvim-nyctophilia'
 ```
 `Lazy`
 ```lua
 { 
-    'charkuils/nvim-nyctophilia',
+    'javiorfo/nvim-nyctophilia',
     lazy = false,
     config = function()
         -- Available themes: nox, umbra, nebula and tenebra
@@ -47,16 +47,16 @@ require'lspconfig'.clangd.setup {
 
 ## Screenshots
 #### colorscheme `umbra` with Rust
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctophilia/rust-umbra.png?raw=true" alt="umbra" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/rust-umbra.png?raw=true" alt="umbra" width="700"/>
 
 #### colorscheme `nebula` with C
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctophilia/c-nebula.png?raw=true" alt="nebula" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/c-nebula.png?raw=true" alt="nebula" width="700"/>
 
 #### colorscheme `nox` with Java
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctophilia/java-nox.png?raw=true" alt="nox" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/java-nox.png?raw=true" alt="nox" width="700"/>
 
 #### colorscheme `tenebra` with Lua
-<img src="https://github.com/charkuils/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" width="700"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" width="700"/>
 
 ## Support
 - Binance: **Pay ID 546639204**
