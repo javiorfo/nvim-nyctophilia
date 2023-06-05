@@ -64,6 +64,7 @@ return {
         require'nyctophilia.syntax.xml'
         require'nyctophilia.syntax.zig'
 
+        -- Lualine
         pcall(function()
             require'lualine'.setup{
                 options = {
@@ -71,6 +72,9 @@ return {
                 }
             }
         end)
+
+        -- Minimaline
+        util.highlight("Minimaline", highlights.hi_5)
 
         set_nvim_tree_colors(highlights)
         set_nerd_tree_colors(highlights)

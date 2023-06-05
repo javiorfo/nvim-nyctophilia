@@ -8,7 +8,7 @@
 - **Colorschemes**
     - nox, umbra, nebula, tenebra
 - **Integrations**
-    - [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
+    - [Minimaline](https://github.com/javiorfo/nvim-minimaline), [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
 
 ## Installation
 `Packer`
