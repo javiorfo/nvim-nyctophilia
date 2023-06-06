@@ -4,5 +4,6 @@ linkAll {
     hsImport    = "Type",
     hsStructure = "hsImport",
     hsImportMod = "hsImport",
-    hsDelimiter = "hsImport"
+    hsDelimiter = "hsImport",
+    hsPragma    = "Annotation"
 }
