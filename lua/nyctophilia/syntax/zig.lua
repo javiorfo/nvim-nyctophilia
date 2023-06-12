@@ -5,9 +5,10 @@ linkAll {
     zigNull      = "zigType",
     zigStructure = "Type",
     zigKeyword   = "Type",
+    zigPreProc   = "Type",
     zigBraces    = "Type",
     zigVarDecl   = "Type",
     zigBuiltinFn = "Annotation",
-    zigMacro     = "Define",
+    zigMacro     = "Tag",
     zigType      = "Boolean"
 }
