@@ -54,6 +54,7 @@ return {
             require'nyctophilia.groups'.set_groups(highlights)
         )
         require'nyctophilia.syntax.c'
+        require'nyctophilia.syntax.go'
         require'nyctophilia.syntax.javascript'
         require'nyctophilia.syntax.haskell'
         require'nyctophilia.syntax.json'
