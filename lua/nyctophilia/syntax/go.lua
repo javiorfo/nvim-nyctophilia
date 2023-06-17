@@ -1,5 +1,6 @@
 local linkAll = require'nyctophilia.util'.linkAll
 
 linkAll {
-    goDeclaration = "Type"
+    goDeclaration = "Type",
+    goVar         = "Type"
 }
