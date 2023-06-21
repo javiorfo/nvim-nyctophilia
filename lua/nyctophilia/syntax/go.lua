@@ -4,6 +4,7 @@ linkAll {
     goDeclaration  = "Type",
     goVar          = "Type",
     goBlock        = "Type",
+    goBraces       = "Type",
     goOperator     = "Type",
     goType         = "Boolean",
     goSignedInts   = "goType",
