@@ -6,6 +6,7 @@ linkAll {
     goBlock        = "Type",
     goBraces       = "Type",
     goOperator     = "Type",
+    goDeclType     = "Type",
     goType         = "Boolean",
     goSignedInts   = "goType",
     goUnsignedInts = "goType",
