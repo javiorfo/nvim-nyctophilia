@@ -57,3 +57,8 @@ require'lspconfig'.clangd.setup {
 
 #### colorscheme `tenebra` with Lua
 <img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" width="700"/>
+
+---
+
+### Donate
+- [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
