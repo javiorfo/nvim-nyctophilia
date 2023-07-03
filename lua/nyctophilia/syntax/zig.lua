@@ -4,6 +4,7 @@ linkAll {
     zigBoolean   = "Boolean",
     zigNull      = "zigType",
     zigStructure = "Type",
+    zigExecution = "Type",
     zigKeyword   = "Type",
     zigPreProc   = "Type",
     zigBraces    = "Type",
