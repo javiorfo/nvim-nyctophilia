@@ -8,17 +8,17 @@
 - **Colorschemes**
     - nox, umbra, nebula, tenebra
 - **Integrations**
-    - [Minimaline](https://github.com/caosystema/nvim-minimaline), [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
+    - [Minimaline](https://github.com/javiorfo/nvim-minimaline), [Lualine](https://github.com/nvim-lualine/lualine.nvim), [NvimTree](https://github.com/nvim-tree/nvim-tree.lua), [NerdTree](https://github.com/preservim/nerdtree)
 
 ## Installation
 `Packer`
 ```lua
-use 'caosystema/nvim-nyctophilia'
+use 'javiorfo/nvim-nyctophilia'
 ```
 `Lazy`
 ```lua
 { 
-    'caosystema/nvim-nyctophilia',
+    'javiorfo/nvim-nyctophilia',
     lazy = false,
     config = function()
         -- Available themes: nox, umbra, nebula and tenebra
@@ -47,19 +47,19 @@ require'lspconfig'.clangd.setup {
 
 ## Screenshots
 #### colorscheme `umbra` with Rust
-<img src="https://github.com/caosystema/img/blob/master/nvim-nyctophilia/rust-umbra.png?raw=true" alt="umbra"/>
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/rust-umbra.png?raw=true" alt="umbra"/>
 
 #### colorscheme `nebula` with C
-<img src="https://github.com/caosystema/img/blob/master/nvim-nyctophilia/c-nebula.png?raw=true" alt="nebula" />
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/c-nebula.png?raw=true" alt="nebula" />
 
 #### colorscheme `nox` with Java
-<img src="https://github.com/caosystema/img/blob/master/nvim-nyctophilia/java-nox.png?raw=true" alt="nox" />
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/java-nox.png?raw=true" alt="nox" />
 
 #### colorscheme `tenebra` with Lua
-<img src="https://github.com/caosystema/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" />
+<img src="https://github.com/javiorfo/img/blob/master/nvim-nyctophilia/lua-tenebra.png?raw=true" alt="tenebra" />
 
 ---
 
-### Support CaoSystema's Work
-- [Binance](https://raw.githubusercontent.com/caosystema/img/master/BinancePayQR.png)
+### Donate
+- [Binance](https://raw.githubusercontent.com/javiorfo/img/master/binance/BinancePayQR.png)
 - [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
