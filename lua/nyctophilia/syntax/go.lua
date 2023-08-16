@@ -10,7 +10,6 @@ linkAll {
     goDeclType     = "Type",
     goType         = "Boolean",
     goImportString = "Annotation",
-    goSingleImport = "Annotation",
     goSignedInts   = "goType",
     goUnsignedInts = "goType",
     goFloats       = "goType",
