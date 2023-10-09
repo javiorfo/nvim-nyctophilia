@@ -7,7 +7,7 @@ let b:current_syntax = "java"
 " Keyword
 syn keyword javaTypeDef       this null
 syn keyword javaBoolean       true false
-syn keyword javaLabel         case default switch
+syn keyword javaLabel         case default switch when
 syn keyword javaError         goto const
 syn keyword javaExternal      package import
 syn keyword javaOperator      new instanceof
