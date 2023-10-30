@@ -62,3 +62,4 @@ require'lspconfig'.clangd.setup {
 
 ### Donate
 - [Binance](https://raw.githubusercontent.com/javiorfo/img/master/binance/BinancePayQR.png)
+- [Paypal](https://www.paypal.com/donate/?hosted_button_id=FA7SGLSCT2H8G)
