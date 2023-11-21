@@ -7,10 +7,10 @@ let b:current_syntax = "rust"
 " Keyword
 syn keyword rustConditional match if else
 syn keyword rustRepeat      loop while for in
-syn keyword rustTypedef     type as use await pub extern
+syn keyword rustTypedef     type as use pub extern
 syn keyword rustStructure   struct enum union existencial
 syn keyword rustKeyword     break box continue crate impl let macro return yield super where unsafe fn dyn
-syn keyword rustKeyword     mod trait await
+syn keyword rustKeyword     mod trait async
 syn keyword rustStorage     move mut ref static const
 syn keyword rustKeyword     become do priv typeof unsized abstract virtual final override
 syn keyword rustType        isize usize char bool u8 u16 u32 u64 u128 f32
