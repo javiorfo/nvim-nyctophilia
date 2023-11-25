@@ -7,7 +7,7 @@ let b:current_syntax = "java"
 " Keyword
 syn keyword javaTypeDef       this null
 syn keyword javaBoolean       true false
-syn keyword javaLabel         case default switch when
+syn keyword javaLabel         case default switch
 syn keyword javaError         goto const
 syn keyword javaExternal      package import
 syn keyword javaOperator      new instanceof
@@ -39,6 +39,7 @@ syn match javaSign  	 '&'
 syn match javaSign  	 '|'
 syn match javaSign 		 ' / '
 syn match javaSign 		 ' -> '
+syn match javaWhen 		 ' when '
 syn match javaTodo		 "\v<(TODO|FIXME)" containedin=ALL
 syn match javaString	 '\v"%([^\\"]|\\.)*"'
 syn match javaAnnotation "\v(\w)@<!\@[[:alnum:]_.]*(:[[:alnum:]_.]*)?"
@@ -74,3 +75,4 @@ hi link javaLabel         Label
 hi link javaString        String
 hi link javaException     Type
 hi link javaDebug         Type
+hi link javaWhen          Type
