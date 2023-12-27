@@ -9,7 +9,6 @@ linkAll {
     goOperator     = "Type",
     goDeclType     = "Type",
     goType         = "Boolean",
-    goImportString = "Annotation",
     goSignedInts   = "goType",
     goUnsignedInts = "goType",
     goFloats       = "goType",
