@@ -40,6 +40,7 @@ syn match javaSign  	 '|'
 syn match javaSign 		 ' / '
 syn match javaSign 		 ' -> '
 syn match javaWhen 		 ' when '
+syn match javaNonSealed	 'non-sealed'
 syn match javaTodo		 "\v<(TODO|FIXME)" containedin=ALL
 syn match javaString	 '\v"%([^\\"]|\\.)*"'
 syn match javaAnnotation "\v(\w)@<!\@[[:alnum:]_.]*(:[[:alnum:]_.]*)?"
@@ -76,3 +77,4 @@ hi link javaString        String
 hi link javaException     Type
 hi link javaDebug         Type
 hi link javaWhen          Type
+hi link javaNonSealed     Type
