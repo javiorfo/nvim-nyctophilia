@@ -12,7 +12,8 @@ linkAll {
     goSignedInts   = "goType",
     goUnsignedInts = "goType",
     goFloats       = "goType",
-    goComplexes    = "goType"
+    goComplexes    = "goType",
+    goImportString = "Annotation"
 }
 
 vim.g.go_highlight_operators = 1

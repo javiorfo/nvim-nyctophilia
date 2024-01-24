@@ -34,6 +34,7 @@ local function set_nvim_tree_colors(highlights)
         NvimTreeMarkdownFile     = highlights.hi_1,
         NvimTreeIndentMarker     = highlights.hi_1,
         NvimTreeStatusLineNC     = highlights.hi_1,
+        NvimTreeWinSeparator     = highlights.hi_27,
         NvimTreeStatusLine       = highlights.hi_27
     }
 end
