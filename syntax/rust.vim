@@ -46,6 +46,7 @@ syn region rustString              matchgroup=rustStringDelimiter start=+b"+ ski
 syn region rustString              matchgroup=rustStringDelimiter start=+"+ skip=+\\\\\|\\"+ end=+"+ 
 syn region rustString              matchgroup=rustStringDelimiter start='b\?r\z(#*\)"' end='"\z1' 
 syn region rustMacro               start="#\[" end="\]" contains=rustString 
+syn region rustMacro               start="#!\[" end="\]" contains=rustString 
 syn region rustCommentLine         start="//" end="$"   contains=rustTodo
 syn region rustCommentLineDoc      start="//\%(//\@!\|!\)" end="$" contains=rustTodo
 syn region rustCommentBlock        matchgroup=rustCommentBlock    start="/\*\%(!\|\*[*/]\@!\)\@!" end="\*/" contains=rustTodo
