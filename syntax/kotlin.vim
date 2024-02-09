@@ -8,7 +8,7 @@ let b:current_syntax = "kotlin"
 syn keyword ktStatement   break continue return
 syn keyword ktConditional if else when
 syn keyword ktRepeat      do for while
-syn keyword ktOperator    in is by out where
+syn keyword ktOperator    in is by out where as
 syn keyword ktKeyword     get set
 syn keyword ktException   try catch finally throw
 syn keyword ktInclude     import package
