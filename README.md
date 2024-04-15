@@ -20,7 +20,7 @@ use 'javiorfo/nvim-nyctophilia'
 { 
     'javiorfo/nvim-nyctophilia',
     lazy = false,
-    config = function()
+    init = function()
         -- Available themes: nox, umbra, nebula and tenebra
         vim.cmd[[colorscheme umbra]]
     end
