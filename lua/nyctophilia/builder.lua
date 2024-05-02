@@ -60,6 +60,7 @@ return {
         require'nyctophilia.syntax.haskell'
         require'nyctophilia.syntax.json'
         require'nyctophilia.syntax.lua'
+        require'nyctophilia.syntax.proto'
         require'nyctophilia.syntax.sql'
         require'nyctophilia.syntax.scala'
         require'nyctophilia.syntax.yaml'
