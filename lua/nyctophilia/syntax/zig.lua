@@ -11,6 +11,6 @@ linkAll {
     zigBraces         = "Type",
     zigVarDecl        = "Type",
     zigBuiltinFn      = "Annotation",
-    zigMacro          = "Tag",
+    zigMacro          = "Type",
     zigType           = "Boolean"
 }
