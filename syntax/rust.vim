@@ -41,10 +41,20 @@ syn match rustDoubleColon    	 '::'
 syn match rustReference    	     '&'
 syn match rustEnumConst          "\<\([A-Z][A-Z0-9_]\+\)\>"
 
-" Region
-syn region rustString              matchgroup=rustStringDelimiter start=+b"+ skip=+\\\\\|\\"+ end=+"+ 
-syn region rustString              matchgroup=rustStringDelimiter start=+"+ skip=+\\\\\|\\"+ end=+"+ 
-syn region rustString              matchgroup=rustStringDelimiter start='b\?r\z(#*\)"' end='"\z1' 
+syn match     rustEscapeError   display contained /\\./
+syn match     rustEscape        display contained /\\\([nrt0\\'"]\|x\x\{2}\)/
+syn match     rustEscapeUnicode display contained /\\u{\%(\x_*\)\{1,6}}/
+syn match     rustStringContinuation display contained /\\\n\s*/
+syn region    rustString      matchgroup=rustStringDelimiter start=+b"+ skip=+\\\\\|\\"+ end=+"+ contains=rustEscape,rustEscapeError,rustStringContinuation
+syn region    rustString      matchgroup=rustStringDelimiter start=+"+ skip=+\\\\\|\\"+ end=+"+ contains=rustEscape,rustEscapeUnicode,rustEscapeError,rustStringContinuation,@Spell
+syn region    rustString      matchgroup=rustStringDelimiter start='b\?r\z(#*\)"' end='"\z1' contains=@Spell
+
+syn match   rustCharacterInvalid   display contained /b\?'\zs[\n\r\t']\ze'/
+" The groups negated here add up to 0-255 but nothing else (they do not seem to go beyond ASCII).
+syn match   rustCharacterInvalidUnicode   display contained /b'\zs[^[:cntrl:][:graph:][:alnum:][:space:]]\ze'/
+syn match   rustCharacter   /b'\([^\\]\|\\\(.\|x\x\{2}\)\)'/ contains=rustEscape,rustEscapeError,rustCharacterInvalid,rustCharacterInvalidUnicode
+syn match   rustCharacter   /'\([^\\]\|\\\(.\|x\x\{2}\|u{\%(\x_*\)\{1,6}}\)\)'/ contains=rustEscape,rustEscapeUnicode,rustEscapeError,rustCharacterInvalid
+
 syn region rustMacro               start="#\[" end="\]" contains=rustString 
 syn region rustMacro               start="#!\[" end="\]" contains=rustString 
 syn region rustCommentLine         start="//" end="$"   contains=rustTodo
@@ -58,6 +68,7 @@ syn region rustCommentBlockDocNest matchgroup=rustCommentBlockDoc start="/\*"   
 hi link rustStringContinuation   Special
 hi link rustString               String
 hi link rustStringDelimiter      String
+hi link rustCharacter            String
 hi link rustBoolean              Boolean
 hi link rustSign                 Type
 hi link rustEnum                 Constant
