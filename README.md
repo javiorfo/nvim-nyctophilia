@@ -3,6 +3,7 @@
 
 ## Caveats
 - This plugin has been developed on and for Linux following open source philosophy.
+- Support for [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter/tree/master) 
 
 ## Overview
 - **Colorschemes**
@@ -38,11 +39,9 @@ vim.cmd[[colorscheme umbra]]
 - If using LSP servers disable semantics, otherwise syntax might not look properly
 ```lua
 -- Example with C language
-require'lspconfig'.clangd.setup {
-    on_attach = function(client, _)
-        client.server_capabilities.semanticTokensProvider = nil
-    end
-}
+on_attach = function(client, _)
+    client.server_capabilities.semanticTokensProvider = nil
+end
 ```
 
 ## Screenshots

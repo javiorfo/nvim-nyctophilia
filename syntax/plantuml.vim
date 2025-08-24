@@ -4,41 +4,65 @@ endif
 
 let b:current_syntax = "plantuml"
 
-" Keyword
-syn keyword pumlKeywordClass         abstract class annotation circle diamond entity enum interface protocol struct int void long boolean static hide showg
-syn keyword pumlKeywordSequence      actor boundary control database collectionsg
-syn keyword pumlKeywordUseCase       usecase as skinparam actorStyle rectangle packageg
-syn keyword pumlKeywordObjects       object map table jsong
-syn keyword pumlKeywordComponent     component folder frame node cloud restore remove allowmixingg
-syn keyword pumlKeywordState         agent artifact card file person queue stack storage hexagong
-syn keyword pumlKeywordActivity      start end if else endif stop elseif switch case endswitch then repeat while goto break endwhile fork split hidden floatingg
-syn keyword pumlKeywordActivityFinal detach killg
-syn keyword pumlKeywordActivityError errorg
+syn keyword plantumlStart end
+syn keyword plantumlEnd start
+syn keyword plantumlFileFormat uml json ditaa gantt wbs mindmap json activity state
 
-" Match
-syn match pumlStartEnd    "\%(^@startuml\|^@enduml\)"
-syn match pumlLeftToRight "left to right direction"
-syn match pumlNoteOf      "\%(^note left of\|^note right of\|^note top of\|^note bottom of\)"
-syn match pumlBrackets	  '[\[\]{}=]'
-syn match pumlSign  	  '[+*-]'
-syn match pumlSign 		  ' / '
+syn keyword plantumlGeneral title header footer legend skinparam
+syn keyword plantumlGeneral as note autonumber
+syn keyword plantumlGeneral !define !include
 
-" Region
-syn region pumlString start='"' end='"'
+syn keyword plantumlStructure class interface abstract enum package component entity namespace struct record dataclass exception
+syn keyword plantumlStructure annotation stereotype agent actor boundary control collections
+syn keyword plantumlStructure cloud rectangle file folder frame node queue stack artifact database
+syn match plantumlStereotype "<<[^>]*>>"
 
-" Link
-hi link pumlStartEnd             Boolean
-hi link pumlLeftToRight          Boolean
-hi link pumlNoteOf               Boolean
-hi link pumlBrackets             Type
-hi link pumlSign                 Boolean
-hi link pumlKeywordClass         Type
-hi link pumlKeywordSequence      Type
-hi link pumlKeywordState         Type
-hi link pumlKeywordComponent     Type
-hi link pumlKeywordActivity      Type
-hi link pumlKeywordActivityFinal Boolean
-hi link pumlKeywordActivityError ErrorMsg
-hi link pumlKeywordObjects       Type
-hi link pumlKeywordUseCase       Type
-hi link pumlString               String
+syn match plantumlStartEnd    "\%(^@startuml\|^@enduml\)"
+
+syn match plantumlRelationship "\\(\\|\\|\\|\\|\\|\\|\\|\\|\\)"
+syn match plantumlRelationship "--\\?o\\?--"
+syn match plantumlRelationship "--\\?*\\?--"
+syn match plantumlRelationship "--\\?|\\?--"
+syn match plantumlRelationship "\\*--\\?"
+syn match plantumlRelationship "o--\\?"
+syn match plantumlRelationship "<|--"
+syn match plantumlRelationship "\\.\\.\\|\\-\\>\\|\\<\\-\\|\\<\\-\\-"
+syn match plantumlRelationship "-->"
+syn match plantumlRelationship "<--"
+syn match plantumlRelationship "--"
+syn match plantumlRelationship "\\.\\.\\>"
+syn match plantumlRelationship "<\\.\\."
+syn match plantumlRelationship "\\.\\."
+syn match plantumlRelationship "-"
+
+syn region plantumlString start='"' end='"'
+syn region plantumlComment start='\'' end='.*$'
+
+syn keyword plantumlSequence participant activate deactivate destroy group loop alt opt par critical break ref
+syn keyword plantumlSequence note left note right note over
+syn keyword plantumlSequence rnote hnote
+
+syn keyword plantumlActivity start stop if then else endif
+syn keyword plantumlActivity fork fork again join repeat repeat while end repeat
+
+syn keyword plantumlState state
+
+syn keyword plantumlGantt happens on today
+
+syn keyword plantumlMindmap " " " " " " " " " "
+
+hi def link plantumlFileFormat Type
+hi def link plantumlStart Statement
+hi def link plantumlEnd Statement
+hi def link plantumlGeneral Type
+hi def link plantumlStructure Type
+hi def link plantumlStereotype Special
+hi def link plantumlRelationship Statement
+hi def link plantumlSequence Type
+hi def link plantumlActivity Keyword
+hi def link plantumlState Keyword
+hi def link plantumlGantt Keyword
+hi def link plantumlMindmap Keyword
+hi def link plantumlStartEnd Boolean
+hi def link plantumlString String
+hi def link plantumlComment Comment
