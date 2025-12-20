@@ -70,7 +70,7 @@ return {
             -- TreeSitter
             ["@attribute"]                = highlights.hi_9,
             ["@attribute.java"]           = highlights.hi_23,
-            ["@attribute.python"]           = highlights.hi_23,
+            ["@attribute.python"]         = highlights.hi_23,
             ["@boolean"]                  = highlights.hi_3,
             ["@character"]                = highlights.hi_10,
             ["@character.special"]        = highlights.hi_9,
@@ -187,6 +187,7 @@ return {
             ["@type"]                     = highlights.hi_1,
             ["@type.builtin"]             = highlights.hi_6,
             ["@type.builtin.go"]          = highlights.hi_3,
+            ["@type.builtin.python"]      = highlights.hi_3,
             ["@type.builtin.rust"]        = highlights.hi_3,
             ["@type.builtin.zig"]         = highlights.hi_3,
             ["@type.definition"]          = highlights.hi_1,
