@@ -70,6 +70,7 @@ return {
             -- TreeSitter
             ["@attribute"]                = highlights.hi_9,
             ["@attribute.java"]           = highlights.hi_23,
+            ["@attribute.python"]           = highlights.hi_23,
             ["@boolean"]                  = highlights.hi_3,
             ["@character"]                = highlights.hi_10,
             ["@character.special"]        = highlights.hi_9,
